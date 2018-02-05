@@ -1,7 +1,7 @@
 ﻿using Shouldly;
 using Xunit;
 
-namespace OpenRealEstate.NET.Transmorgrifiers.Core.Tests
+namespace OpenRealEstate.Transmorgrifiers.Core.Tests
 {
     public class TimeZoneInfoHelperTests
     {

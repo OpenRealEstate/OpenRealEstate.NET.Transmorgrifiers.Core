@@ -1,6 +1,6 @@
-﻿using OpenRealEstate.NET.Core;
+﻿using OpenRealEstate.Core;
 
-namespace OpenRealEstate.NET.Transmorgrifiers.Core
+namespace OpenRealEstate.Transmorgrifiers.Core
 {
     public interface ITransmorgrifier
     {

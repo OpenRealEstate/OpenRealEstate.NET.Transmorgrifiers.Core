@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenRealEstate.NET.Transmorgrifiers.Core
+namespace OpenRealEstate.Transmorgrifiers.Core
 {
     public class ParsingException : Exception
     {

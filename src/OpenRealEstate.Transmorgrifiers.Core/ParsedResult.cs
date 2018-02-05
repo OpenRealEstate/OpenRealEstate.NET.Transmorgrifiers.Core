@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OpenRealEstate.NET.Transmorgrifiers.Core
+namespace OpenRealEstate.Transmorgrifiers.Core
 {
     public class ParsedResult
     {

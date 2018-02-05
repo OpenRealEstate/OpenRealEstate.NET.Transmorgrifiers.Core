@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRealEstate.NET.Transmorgrifiers.Core", "src\OpenRealEstate.NET.Transmorgrifiers.Core\OpenRealEstate.NET.Transmorgrifiers.Core.csproj", "{E32FF734-C380-4B4E-A326-A92B013E41F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRealEstate.Transmorgrifiers.Core", "src\OpenRealEstate.Transmorgrifiers.Core\OpenRealEstate.Transmorgrifiers.Core.csproj", "{E32FF734-C380-4B4E-A326-A92B013E41F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRealEstate.NET.Transmorgrifiers.Core.Tests", "tests\OpenRealEstate.NET.Transmorgrifiers.Core.Tests\OpenRealEstate.NET.Transmorgrifiers.Core.Tests.csproj", "{A2B657B2-73DE-4B93-B842-68A300CB192A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRealEstate.Transmorgrifiers.Core.Tests", "tests\OpenRealEstate.Transmorgrifiers.Core.Tests\OpenRealEstate.Transmorgrifiers.Core.Tests.csproj", "{A2B657B2-73DE-4B93-B842-68A300CB192A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

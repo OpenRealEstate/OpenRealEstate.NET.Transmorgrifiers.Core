@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OpenRealEstate.NET.Transmorgrifiers.Core
+namespace OpenRealEstate.Transmorgrifiers.Core
 {
     public static class TimeZoneInfoHelper
     {
