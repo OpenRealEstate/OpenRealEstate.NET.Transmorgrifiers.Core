@@ -5,6 +5,12 @@ namespace OpenRealEstate.Transmorgrifiers.Core
     public interface ITransmorgrifier
     {
         /// <summary>
+        /// Name of this transmorgrifier.
+        /// </summary>
+        /// <remarks>This name is mainly used as an audit reference in case later on you need to figure out what parsed this data and possible, re-parse it again.</remarks>
+        string Name { get; }
+
+        /// <summary>
         /// Parses and converts some given data into a listing instance.
         /// </summary>
         /// <param name="data">some data source, like Xml data or json data.</param>

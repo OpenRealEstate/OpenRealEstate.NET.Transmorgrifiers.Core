@@ -35,5 +35,10 @@ namespace OpenRealEstate.Transmorgrifiers.Core
         /// Xml elements that failed to be parsed / contained bad data / etc.
         /// </summary>
         public IList<ParsedError> Errors { get; set; }
+
+        /// <summary>
+        /// Name of the transmorgrifier that was used to parse the source data.
+        /// </summary>
+        public string TransmorgrifierName { get; set; }
     }
 }

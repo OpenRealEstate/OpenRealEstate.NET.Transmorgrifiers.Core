@@ -9,7 +9,7 @@ namespace OpenRealEstate.Transmorgrifiers.Core
 
         public override string ToString()
         {
-            return $"Type: {Listing?.GetType().ToString() ?? "-null -"}";
+            return $"Type: {Listing?.ToString() ?? "-null -"}";
         }
     }
 }
