@@ -1,4 +1,5 @@
-﻿using OpenRealEstate.Core;
+using System.Threading.Tasks;
+using OpenRealEstate.Core;
 
 namespace OpenRealEstate.Transmorgrifiers.Core
 {
@@ -18,8 +19,8 @@ namespace OpenRealEstate.Transmorgrifiers.Core
         /// <param name="areBadCharactersRemoved">Help clean up the data.</param>
         /// <returns>List of listings, unhandled data and/or errors.</returns>
         /// <remarks>The <code>existing listing</code> that is provided will end up be used in the <code>ParsedResult</code> result, but with new data populated into it.</remarks>
-        ParsedResult Parse(string data,
-                           Listing existingListing = null,
-                           bool areBadCharactersRemoved = false);
+        Task<ParsedResult> ParseAsync(string data,
+                                      Listing existingListing = null,
+                                      bool areBadCharactersRemoved = false);
     }
 }

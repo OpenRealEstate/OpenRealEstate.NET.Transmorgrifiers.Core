@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRealEstate.Transmorgrifiers.Core", "src\OpenRealEstate.Transmorgrifiers.Core\OpenRealEstate.Transmorgrifiers.Core.csproj", "{E32FF734-C380-4B4E-A326-A92B013E41F1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRealEstate.Transmorgrifiers.Core.Tests", "tests\OpenRealEstate.Transmorgrifiers.Core.Tests\OpenRealEstate.Transmorgrifiers.Core.Tests.csproj", "{A2B657B2-73DE-4B93-B842-68A300CB192A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{E32FF734-C380-4B4E-A326-A92B013E41F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E32FF734-C380-4B4E-A326-A92B013E41F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E32FF734-C380-4B4E-A326-A92B013E41F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2B657B2-73DE-4B93-B842-68A300CB192A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2B657B2-73DE-4B93-B842-68A300CB192A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2B657B2-73DE-4B93-B842-68A300CB192A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2B657B2-73DE-4B93-B842-68A300CB192A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
