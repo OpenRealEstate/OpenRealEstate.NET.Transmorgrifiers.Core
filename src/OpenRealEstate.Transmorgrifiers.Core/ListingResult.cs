@@ -1,4 +1,5 @@
-﻿using OpenRealEstate.Core;
+using System.Collections.Generic;
+using OpenRealEstate.Core;
 
 namespace OpenRealEstate.Transmorgrifiers.Core
 {
@@ -6,6 +7,7 @@ namespace OpenRealEstate.Transmorgrifiers.Core
     {
         public Listing Listing { get; set; }
         public string SourceData { get; set; }
+        public IList<string> Warnings { get; set; }
 
         public override string ToString()
         {
