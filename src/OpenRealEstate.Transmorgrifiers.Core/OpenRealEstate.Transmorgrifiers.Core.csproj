@@ -29,4 +29,11 @@
     <PackageReference Include="OpenRealEstate.Core" Version="111.0.0-beta" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  
 </Project>
