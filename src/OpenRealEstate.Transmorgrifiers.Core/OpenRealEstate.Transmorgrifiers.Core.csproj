@@ -2,24 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.0</Version>
+    <PackageId>OpenRealEstate.Transmorgrifiers.Core</PackageId>
+    <Product>OpenRealEstate - Services</Product>
     <Authors>Justin Adler</Authors>
     <Company>OpenRealEstate</Company>
-    <Product>OpenRealEstate - Services</Product>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/OpenRealEstate/OpenRealEstate/master/LICENSE</PackageLicenseUrl>
+    <Copyright>2014</Copyright>
+    <Description>
+      These are the services which encapsulate the main business logic of the OpenRealEstate library.
+
+      This library is where all the magic happens :)
+    </Description>
     <PackageProjectUrl>https://github.com/OpenRealEstate/OpenRealEstate</PackageProjectUrl>
+    <PackageTags>ore ore.net realestate openrealestate</PackageTags>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/7205481?s=64</PackageIconUrl>
     <RepositoryUrl>https://github.com/OpenRealEstate/OpenRealEstate.NET.Transmorgrifiers.Core</RepositoryUrl>
     <RepositoryType>c#</RepositoryType>
-    <PackageTags>ore ore.net realestate openrealestate</PackageTags>
-    <Description>These are the services which encapsulate the main business logic of the OpenRealEstate library.
-
-This library is where all the magic happens :)</Description>
-    <Copyright>2014</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OpenRealEstate.Core" Version="38.0.0-dev" />
+    <PackageReference Include="OpenRealEstate.Core" Version="111.0.0-beta" />
   </ItemGroup>
 
 </Project>
