@@ -19,6 +19,7 @@
     <RepositoryType>c#</RepositoryType>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
